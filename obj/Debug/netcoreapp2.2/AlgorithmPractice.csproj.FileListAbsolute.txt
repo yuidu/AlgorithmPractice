@@ -1,0 +1,11 @@
+/Users/Eric/Projects/AlgorithmPractice/bin/Debug/netcoreapp2.2/AlgorithmPractice.deps.json
+/Users/Eric/Projects/AlgorithmPractice/bin/Debug/netcoreapp2.2/AlgorithmPractice.runtimeconfig.json
+/Users/Eric/Projects/AlgorithmPractice/bin/Debug/netcoreapp2.2/AlgorithmPractice.runtimeconfig.dev.json
+/Users/Eric/Projects/AlgorithmPractice/bin/Debug/netcoreapp2.2/AlgorithmPractice.dll
+/Users/Eric/Projects/AlgorithmPractice/bin/Debug/netcoreapp2.2/AlgorithmPractice.pdb
+/Users/Eric/Projects/AlgorithmPractice/obj/Debug/netcoreapp2.2/AlgorithmPractice.csprojAssemblyReference.cache
+/Users/Eric/Projects/AlgorithmPractice/obj/Debug/netcoreapp2.2/AlgorithmPractice.csproj.CoreCompileInputs.cache
+/Users/Eric/Projects/AlgorithmPractice/obj/Debug/netcoreapp2.2/AlgorithmPractice.AssemblyInfoInputs.cache
+/Users/Eric/Projects/AlgorithmPractice/obj/Debug/netcoreapp2.2/AlgorithmPractice.AssemblyInfo.cs
+/Users/Eric/Projects/AlgorithmPractice/obj/Debug/netcoreapp2.2/AlgorithmPractice.dll
+/Users/Eric/Projects/AlgorithmPractice/obj/Debug/netcoreapp2.2/AlgorithmPractice.pdb
