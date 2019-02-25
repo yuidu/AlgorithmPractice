@@ -8,7 +8,8 @@ namespace AlgorithmPractice
         static void Main(string[] args)
         {
             //TestSort.Test();           
-            TestSearch.Test();
+            //TestSearch.Test();
+            TestGraph.Test();
         }     
     }
 }
