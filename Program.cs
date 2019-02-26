@@ -9,7 +9,8 @@ namespace AlgorithmPractice
         {
             //TestSort.Test();           
             //TestSearch.Test();
-            TestGraph.Test();
+            //TestGraph.Test();
+            TestOthers.Test();
         }     
     }
 }
