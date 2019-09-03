@@ -10,7 +10,10 @@ namespace AlgorithmPractice
             //TestSort.Test();           
             //TestSearch.Test();
             //TestGraph.Test();
-            TestOthers.Test();
+            //TestOthers.Test();
+            //new TestArray();
+
+            TestGraphV2.Test();
         }     
     }
 }
