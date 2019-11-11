@@ -686,30 +686,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ZYu2\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/Eric/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Algorithms\\AlgorithmPractice\\AlgorithmPractice.csproj",
+      "projectUniqueName": "/Users/Eric/Projects/AlgorithmPractice/AlgorithmPractice.csproj",
       "projectName": "AlgorithmPractice",
-      "projectPath": "D:\\Projects\\Algorithms\\AlgorithmPractice\\AlgorithmPractice.csproj",
-      "packagesPath": "C:\\Users\\ZYu2\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Algorithms\\AlgorithmPractice\\obj\\",
+      "projectPath": "/Users/Eric/Projects/AlgorithmPractice/AlgorithmPractice.csproj",
+      "packagesPath": "/Users/Eric/.nuget/packages/",
+      "outputPath": "/Users/Eric/Projects/AlgorithmPractice/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ZYu2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/Eric/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

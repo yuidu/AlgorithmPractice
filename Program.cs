@@ -13,7 +13,8 @@ namespace AlgorithmPractice
             //TestOthers.Test();
             //new TestArray();
 
-            TestGraphV2.Test();
+            //TestGraphV2.Test();
+            TestGraphV3.Test();
         }     
     }
 }
