@@ -15,7 +15,7 @@ namespace AlgorithmPractice
         {
             for (int i = arr.Length / 2; i >= 1; i--)
             {
-                ShiftDown(arr, i);
+                ShiftDown(ref arr, i);
             }
         }
 
@@ -28,7 +28,7 @@ namespace AlgorithmPractice
                     toBeSwap = 2 * i + 1;
                 if (arr[i] > arr[toBeSwap])
                     break;
-                Swap(arr, i, toBeSwap);
+                Swap(ref arr, i, toBeSwap);
                 i = toBeSwap;
             }
         }
