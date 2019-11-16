@@ -13,7 +13,7 @@ namespace AlgorithmPractice {
 
         public void Sort(ref int[] arr)
         {
-            var heapifier = new Heaplifier();
+            var heapifier = new Heapifier();
             heapifier.Heapify(ref arr);
             
             for(int i=arr.Length-1; i >=0; i--)

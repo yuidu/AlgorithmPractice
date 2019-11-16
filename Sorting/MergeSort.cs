@@ -48,6 +48,16 @@ namespace AlgorithmPractice
                     arr[k] = lst[j-start];
                     j++;
                 }                    
+            }            
+        }
+
+        private void SortBU(List<int> arr, int start, int stop)
+        {
+            int n = arr.Count;
+            for(int sz = 1; sz <= n; sz += 2*sz)
+            {
+                for(int i = 0; i + sz < n;  i += 2*sz)               
+                    MergeSubList(arr, i, i + sz, i + 2 * sz);
             }
         }
     }
