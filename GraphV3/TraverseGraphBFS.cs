@@ -11,21 +11,21 @@ namespace AlgorithmPractice
         private SparseGraphV3 _graph;
         private bool[] _isVisited;
         private int[] _from;
-        private int[] _height;
+        private int[] _steps;
         private Queue _gQueue;
         public TraverseGraphBFS(SparseGraphV3 graph)
         {
             _graph = graph;
             _isVisited = Enumerable.Repeat(false, _graph.V()).ToArray();
             _from = Enumerable.Repeat(-1, _graph.V()).ToArray();
-            _height = Enumerable.Repeat(0, _graph.V()).ToArray();
+            _steps = Enumerable.Repeat(0, _graph.V()).ToArray();
             _gQueue = new Queue();
         }
 
         public string FindPath(int start, int target, out int height)
         {
             Bfs(start);                    
-            height = _height[target];
+            height = _steps[target];
             return GetPath(target);
         }
 
@@ -86,7 +86,7 @@ namespace AlgorithmPractice
                     {
                         _gQueue.Enqueue(child);
                         _from[child] = current;
-                        _height[child] = _height[current] + 1;
+                        _steps[child] = _steps[current] + 1;
                     }                        
                 }                
             }
