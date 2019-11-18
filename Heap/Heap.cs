@@ -95,7 +95,7 @@ public class MaxHeapV3
         while( 2*i < _count)
         {            
             int toBeSwap = 2 * i;
-            if (_items[toBeSwap].value < _items[toBeSwap + 1].value)
+            if ((2*i) + 1 <_count && _items[toBeSwap].value < _items[toBeSwap + 1].value)
             {
                 toBeSwap = 2 * i + 1;
             }

@@ -26,7 +26,7 @@ namespace AlgorithmPractice {
 
         public int IsSameTree(TreeNodeV3 node)
         {
-            
+            return 0;
         }
     }
 }
