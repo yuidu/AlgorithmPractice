@@ -10,9 +10,33 @@ namespace AlgorithmPractice
         {
             //TestNo3();
             //TestNo5();
-            TestNo347();
+            //TestNo347();
+            TestNo257();
         }
 
+
+    private static void TestNo257()
+    {
+        //      5
+        //    2   3
+        //  1  8    4
+        //  7
+        //expected result:  5->2->1->7, 5->2->8, 5->3->4
+
+        var root = new LCTreeNode(5);
+        root.Left = new LCTreeNode(2);
+        root.Right = new LCTreeNode(3);
+
+        root.Left.Left = new LCTreeNode(1);
+        root.Left.Right = new LCTreeNode(8);
+
+        root.Right.Right = new LCTreeNode(4);
+        root.Left.Left.Left = new LCTreeNode(7);
+
+        var returnPaths = new ReturnAllPaths();
+        var paths = returnPaths.GetAllPaths(root);
+        paths.ForEach(x=>Console.WriteLine(x));
+    }
     private static void TestNo347()
     {
         //top 5:  22,8,72,45,88

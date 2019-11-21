@@ -9,8 +9,12 @@ namespace AlgorithmPractice.LeetCode
     public class LCTreeNode
     {
         public LCTreeNode Left;
-        public LCTreeNode Right
-        public int value;
-        public int key;
+        public LCTreeNode Right;
+        public int Value;       
+
+        public LCTreeNode(int value)
+        {
+            this.Value = value;            ;        
+        }
     }
 }
