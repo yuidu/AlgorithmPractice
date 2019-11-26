@@ -15,8 +15,8 @@ namespace AlgorithmPractice
 
             //TestGraphV2.Test();
 
-            TestLeetCode.Test();
-            TestGraphV3.Test();
+            //TestLeetCode.Test();
+            //TestGraphV3.Test();
         }     
     }
 }

@@ -10,8 +10,6 @@ namespace AlgorithmPractice
       public LazyPrim(WeightedSparseGraph graph)
       {
           _graph = graph;
-      }
-
-      
+      }      
   } 
 }
