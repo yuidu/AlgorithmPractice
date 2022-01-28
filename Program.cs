@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using AlgorithmPractice.Tree;
 
 namespace AlgorithmPractice
 {
@@ -17,6 +18,10 @@ namespace AlgorithmPractice
 
             //TestLeetCode.Test();
             //TestGraphV3.Test();
+
+            // new ZigZagPrint().Test();
+            new Class1().solution("^vv<v");
         }     
+
     }
 }
