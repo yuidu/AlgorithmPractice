@@ -13,7 +13,7 @@ namespace AlgorithmPractice.Tree
         {
             ans = false;
 
-            int subsum = sum - node.data;
+            int subsum = sum - node.value;
             if (subsum == 0 && node.left == null
                             && node.right == null)
             {

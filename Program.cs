@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using AlgorithmPractice.DynamicProgramming;
 using AlgorithmPractice.Tree;
 
 namespace AlgorithmPractice
@@ -20,7 +21,10 @@ namespace AlgorithmPractice
             //TestGraphV3.Test();
 
             // new ZigZagPrint().Test();
-            new Class1().solution("^vv<v");
+            // new Class1().solution("^vv<v");
+
+            //最长公共上升子序列
+            new LongestIncreasingSub_lint76().Test();
         }     
 
     }

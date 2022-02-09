@@ -5,9 +5,10 @@ using System.Collections;
 namespace AlgorithmPractice {
     public class Node {
         int key;
-        int value;
+        public int value;
         public Node left;
         public Node right;
+
         Node (int key, int value) {
             this.key = key;
             this.value = value;

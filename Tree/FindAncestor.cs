@@ -25,6 +25,21 @@ namespace AlgorithmPractice.Tree
         }
 
 
+        // public int predecessor(TreeNode root)
+        // {
+        //     if (root == null) return null;
+        //     root = root.left;
+        //     while (root.right != null) root = root.right;
+        //     return root;
+        // }
 
+
+        // public int successor(TreeNode root)
+        // {
+        //     if (root == null) return null;
+        //     root = root.right;
+        //     while (root.left != null) root = root.left;
+        //     return root;
+        // }
     }
 }
