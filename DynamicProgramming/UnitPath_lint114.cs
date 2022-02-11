@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace AlgorithmPractice.DynamicProgramming
 {
-    class UnitPath_lint114
+    public class UnitPath_lint114
     {
+        // A robot is located at the top-left corner of a m x nmxn grid.
+        //     The robot can only move either down or right at any point in time.The robot is trying to reach the bottom-right corner of the grid.
+        //     How many possible unique paths are there?
         public int uniquePaths(int m, int n)
         {
             // write your code here

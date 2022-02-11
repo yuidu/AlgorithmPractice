@@ -23,8 +23,28 @@ namespace AlgorithmPractice
             // new ZigZagPrint().Test();
             // new Class1().solution("^vv<v");
 
-            //最长公共上升子序列
-            new LongestIncreasingSub_lint76().Test();
+
+            //最长连续上升子序列 LICS
+            //new longestContinuousSubcs().Test();
+            //最长上升子序列
+            //new LongestIncreasingSub_lint76().Test();
+            //最长公共子串
+            //new longestCommonString().Test();
+
+            //坐标型DP
+            //左上到右下路径数
+            // new UnitPath_lint114();
+            //左上到右下最小路径和
+            // new minPathSum_lint110();
+
+            //bit型DP
+            // new BitCounting();
+
+
+
+
+
+
         }     
 
     }

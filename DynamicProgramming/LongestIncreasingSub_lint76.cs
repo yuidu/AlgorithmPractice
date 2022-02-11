@@ -11,6 +11,7 @@ namespace AlgorithmPractice.DynamicProgramming
         public void Test()
         {
             int[] datat = new int[5] { 9, 3, 6, 2, 7 };
+            // int[] datat = new int[2] { -2, -1 };
             this.longestIncreasingSubsequence(datat);
         }
 
@@ -21,22 +22,18 @@ namespace AlgorithmPractice.DynamicProgramming
             if (n == 0)
                 return 0;
 
-            int i, j;
-            int[] f = new int[n + 1];
-            f[0] = 0;
-            for (i = 1; i <= n; i++)
+            int[] f = new int[n];
+            int res = 0;
+            for (int i = 0; i < n; i++)
             {
                 f[i] = 1;
-                for (j = 0; j < i; j++)
+                for (int j = 0; j < i; j++)
                 {
-                    if (j - 1 >= 0 && nums[j - 1] < nums[i - 1])
+                    if (nums[j] < nums[i] && f[j] + 1 > f[i])
                         f[i] = f[j] + 1;
                 }
+                res = Math.Max(f[i], res);
             }
-
-            int res = 0;
-            for (i = n; i >= 0; i--)
-                res = Math.Max(res, f[i]);
 
             return res;
         }
