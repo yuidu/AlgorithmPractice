@@ -8,6 +8,7 @@ namespace AlgorithmPractice.matrix
 {
     class rob3
     {
+        //抢隔一个结点的最大值
         public int rob(TreeNode root)
         {
             IDictionary<TreeNode, int> memo = new Dictionary<TreeNode, int>();
